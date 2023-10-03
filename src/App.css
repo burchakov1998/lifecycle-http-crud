@@ -1,0 +1,82 @@
+.App {
+  max-width: 840px;
+  margin: 20px auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 22px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.update-btn {
+  color: #2ed269;
+}
+
+.note-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: -20px;
+  margin-right: -20px;
+  background: #ffffff;
+  color: #fe3a3d;
+}
+
+.form-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  color: #3a8efc;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  position: relative;
+  max-width: 240px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form textarea {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: none;
+}
+
+.form-input-group {
+  position: relative;
+  width: 100%;
+  max-width: 345px;
+  height: 116px;
+  border: 1px solid #000000;
+}
